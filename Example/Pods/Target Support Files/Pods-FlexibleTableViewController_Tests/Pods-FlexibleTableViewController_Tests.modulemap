@@ -1,0 +1,6 @@
+framework module Pods_FlexibleTableViewController_Tests {
+  umbrella header "Pods-FlexibleTableViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

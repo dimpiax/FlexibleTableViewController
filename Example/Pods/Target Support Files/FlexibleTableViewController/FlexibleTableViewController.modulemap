@@ -1,0 +1,6 @@
+framework module FlexibleTableViewController {
+  umbrella header "FlexibleTableViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

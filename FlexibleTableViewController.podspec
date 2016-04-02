@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "FlexibleTableViewController"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of FlexibleTableViewController."
+  s.version          = "1.0.0"
+  s.summary          = "Generic table view controller with external data processing"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        Generic table view controller with external data processing of functionality,
+                        like determine cell's `reuseIdentifier` related to `indexPath`, 
+                        configuration of requested cell for display and cell selection handler
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/FlexibleTableViewController"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/dimpiax/FlexibleTableViewController"
+  s.screenshots      = "https://github.com/dimpiax/FlexibleTableViewController/raw/master/readmeAssets/example.png"
   s.license          = 'MIT'
   s.author           = { "Pilipenko Dima" => "dimpiax@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FlexibleTableViewController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/dimpiax/FlexibleTableViewController.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/dimpiax'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
