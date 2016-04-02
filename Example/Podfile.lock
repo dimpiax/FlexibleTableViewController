@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FlexibleTableViewController: 60a308ba27656c8c1e46285cfca2290be260fa90
+  FlexibleTableViewController: 25bb19de84297535f0c6aa98431ca8c23f3f2c4e
 
 COCOAPODS: 0.39.0
