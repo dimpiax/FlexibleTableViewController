@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FlexibleTableViewController_Example', :exclusive => true do
+  pod 'FlexibleTableViewController', :path => '../'
+end
+
+target 'FlexibleTableViewController_Tests', :exclusive => true do
+  pod 'FlexibleTableViewController', :path => '../'
+
+  
+end
