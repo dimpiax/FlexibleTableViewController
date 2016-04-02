@@ -9,7 +9,7 @@ Swift library of generic table view controller with external data processing of 
 like determine cell's `reuseIdentifier` related to `indexPath`, 
 configuration of requested cell for display and cell selection handler
                         
-<img src=readmeAssets/example.png width=25% height=25% />
+<img src=thumbnail.png width=25% height=25% />
 
 ## Usage
 

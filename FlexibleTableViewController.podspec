@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/dimpiax/FlexibleTableViewController"
-  s.screenshots      = "https://github.com/dimpiax/FlexibleTableViewController/raw/master/readmeAssets/example.png"
+  s.screenshots      = "https://github.com/dimpiax/FlexibleTableViewController/raw/master/thumbnail.png"
   s.license          = 'MIT'
   s.author           = { "Pilipenko Dima" => "dimpiax@gmail.com" }
   s.source           = { :git => "https://github.com/dimpiax/FlexibleTableViewController.git", :tag => s.version.to_s }
