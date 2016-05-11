@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FlexibleTableViewController"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Generic table view controller with external data processing"
 
 # This description is used to generate tags and improve search results.

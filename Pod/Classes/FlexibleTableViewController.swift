@@ -38,6 +38,10 @@ public class FlexibleTableViewController<T: CellDataProtocol, U: ListGeneratorPr
         tableView.reloadData()
     }
     
+    public func getItemData(indexPath: NSIndexPath) -> T? {
+        return _data?.getItem(indexPath)
+    }
+    
     // *** METHODS
     // * FUNCTIONS
     public func registerCell(classs: UITableViewCell.Type, reuseIdentifier: String) {
