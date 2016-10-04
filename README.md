@@ -24,31 +24,31 @@ flexibleTableVC.register(CustomUITableViewCell.self, forCellReuseIdentifier: Cus
 Define "reuse identifier" relatively to indexPath:
 ```
 flexibleTableVC.requestCellIdentifier = { indexPath in
-return CustomUITableViewCell.reuseIdentifier
+  return CustomUITableViewCell.reuseIdentifier
 }
 ```
 
 Configure cell relatively to data:
 ```
 flexibleTableVC.configureCell = { (cell: UITableViewCell, data: CustomCellData?) in
-guard let data = data else { return false }
+  guard let data = data else { return false }
 
-if let detailedData = data as? DetailedCustomCellData {
-cell.textLabel?.text = detailedData.title
-cell.detailTextLabel?.text = detailedData.detailed
-}
+  if let detailedData = data as? DetailedCustomCellData {
+    cell.textLabel?.text = detailedData.title
+    cell.detailTextLabel?.text = detailedData.detailed
+  }
 
-cell.backgroundColor = data.backgroundColor
+  cell.backgroundColor = data.backgroundColor
 
-return true
+  return true
 }
 ```
 
 Process cell select here:
 ```
 flexibleTableVC.cellDidSelect = { indexPath in
-// return true for immediately deselection
-return true
+  // return true for immediately deselection
+  return true
 }
 ```
 
