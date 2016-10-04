@@ -11,13 +11,13 @@ import UIKit
 import FlexibleTableViewController
 
 class CustomCellData: CellDataProtocol {
-    private let _title: String
-    private var _category: String?
+    fileprivate let _title: String
+    fileprivate var _category: String?
     
     var title: String { return _title }
     var category: String? { return _category }
     
-    var backgroundColor = UIColor.clearColor()
+    var backgroundColor = UIColor.clear
     
     init(title: String, category: String? = nil) {
         _title = title

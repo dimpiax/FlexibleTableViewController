@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let flexibleTableVC = FlexibleTableViewController<CustomCellData, OrderedListGenerator<CustomCellData>>(style: .Plain, configuration: TableConfiguation())
+        let flexibleTableVC = FlexibleTableViewController<CustomCellData, OrderedListGenerator<CustomCellData>>(style: .plain, configuration: TableConfiguation())
         
-        flexibleTableVC.registerCell(CustomUITableViewCell.self, reuseIdentifier: CustomUITableViewCell.reuseIdentifier)
+        flexibleTableVC.register(CustomUITableViewCell.self, forCellReuseIdentifier: CustomUITableViewCell.reuseIdentifier)
         
         flexibleTableVC.requestCellIdentifier = { indexPath in
             return CustomUITableViewCell.reuseIdentifier
@@ -50,10 +50,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    private func getData() -> TableData<CustomCellData, OrderedListGenerator<CustomCellData>> {
-        var data = TableData<CustomCellData, OrderedListGenerator<CustomCellData>>(generator: OrderedListGenerator(titlesOrder: { $0.sort(>) }))
+    fileprivate func getData() -> TableData<CustomCellData, OrderedListGenerator<CustomCellData>> {
+        var data = TableData<CustomCellData, OrderedListGenerator<CustomCellData>>(generator: OrderedListGenerator(titlesOrder: { $0.sorted(by: >) }))
         
-        for value in [UIColor(red: 0.01, green: 0.22, blue: 0.25, alpha: 1), UIColor(red: 0.04, green: 0.35, blue: 0.35, alpha: 1), UIColor(red: 0.05, green: 0.45, blue: 0.41, alpha: 1), UIColor(red: 0.07, green: 0.55, blue: 0.45, alpha: 1), UIColor(red: 0.1, green: 0.65, blue: 0.47, alpha: 1)].reverse() {
+        for value in [UIColor(red: 0.01, green: 0.22, blue: 0.25, alpha: 1), UIColor(red: 0.04, green: 0.35, blue: 0.35, alpha: 1), UIColor(red: 0.05, green: 0.45, blue: 0.41, alpha: 1), UIColor(red: 0.07, green: 0.55, blue: 0.45, alpha: 1), UIColor(red: 0.1, green: 0.65, blue: 0.47, alpha: 1)].reversed() {
             let v = CustomCellData(title: "", category: "Ocean")
             v.backgroundColor = value
             data.addItem(v)

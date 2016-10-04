@@ -1,1930 +1,855 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>001A5DCE33EF415344C51EA257A80604</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1B78F394A9FBFEDB0267E78D753A02E6</string>
-				<string>985341F35522BC522B407FDFC85A1525</string>
-				<string>02970D8285C3AB675F8CC5C377C24426</string>
-				<string>962567C4C9639A0ED60BC3C012011583</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0130D64DCF725C87811EAB5BAEB4F542</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9213593EBCB2F745A681DCC0CA99B513</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>02970D8285C3AB675F8CC5C377C24426</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2F74F38C04A014E3EFC626AB81BED58</string>
-				<string>2910D654EF65D540FF9B88AAD5B60F7D</string>
-				<string>A1602FF7DBC7F913759DFA9E52EE6EB1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>data</string>
-			<key>path</key>
-			<string>data</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>02F53630B216DF23A66F10772C72C4C2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C96ED1A454C9F72E273E8259FE367FCB</string>
-				<string>45037B693078234E3EF293862D1FAEBF</string>
-				<string>1155D59BA957EDC6C6E75396DB34D9BD</string>
-				<string>088F9F5A87B6EE679E2DDB89F1458EFA</string>
-				<string>B0ABE42338C6B9CAFC79FD7224B97FA1</string>
-				<string>8C85EA1F140D9FDF6AF60859FA9266BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/FlexibleTableViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>088F9F5A87B6EE679E2DDB89F1458EFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FlexibleTableViewController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>092CCAC44E7310CB58B60CF0E73722A8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CA85A35B49E946E1A61700ECDB35CC9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A91D8CDAB3C8A5DABA2607C230C9FF31</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0D485A240657E77419FC121E7935C5A0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0E6C7F2A1B3001E5315BD36D1B263451</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F426C0ED38889CCE0212810EFF37FB3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>829ABFC04F5D4C4226B16393CD152937</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10879563911BD06334051D8F54BC7A20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1155D59BA957EDC6C6E75396DB34D9BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FlexibleTableViewController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13601574CD786F2AEE05CEC90ECB6806</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>88AF7345A4F1EDDC3F994E6B458A6EF0</string>
-				<string>98B7B25FCA966746CB64366388550DDB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>164AFD52BC605857ADE21B1CE890DD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>183F530190933D32B71B80F531170976</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B8EC923BD95103541AC28730858CD806</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1B78F394A9FBFEDB0267E78D753A02E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FlexibleTableViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>216FC69AAD984D31B6D0F68817DCD73D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2F74F38C04A014E3EFC626AB81BED58</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2389FB14E5C5BD131CB4A8078C7DEFE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CustomUITableViewCell.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28521C32008C1CD3B895EB50697DD375</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A1602FF7DBC7F913759DFA9E52EE6EB1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2910D654EF65D540FF9B88AAD5B60F7D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TableConfiguration.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D7E09D9D434E01BFC19461305E82A13</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_FlexibleTableViewController_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_FlexibleTableViewController_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>332B154BB7F67F5E718751F6E01D6993</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FlexibleTableViewController</string>
-			<key>target</key>
-			<string>9393ED005DFE68B331CC0B8350C2D492</string>
-			<key>targetProxy</key>
-			<string>84263E75120BBF2F3C68FBD7AF7AC36C</string>
-		</dict>
-		<key>36228077E3FAD59D431A88143C1C40A3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FlexibleTableViewController.framework</string>
-			<key>path</key>
-			<string>FlexibleTableViewController.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3FE215B273D5147E68E246BD1959391A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CellDataProtocol.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45037B693078234E3EF293862D1FAEBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>FlexibleTableViewController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47ABB03668623A4C5C066F4C9E376387</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>45037B693078234E3EF293862D1FAEBF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FlexibleTableViewController/FlexibleTableViewController-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/FlexibleTableViewController/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/FlexibleTableViewController/FlexibleTableViewController.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>FlexibleTableViewController</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>47D22A59E67211342D31DBE0DB9A0945</key>
-		<dict>
-			<key>fileRef</key>
-			<string>969B48DE1E3D071B96D47F16F017CFD0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>484039E10A39A877C983CA105C8D6A7B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>45037B693078234E3EF293862D1FAEBF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FlexibleTableViewController/FlexibleTableViewController-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/FlexibleTableViewController/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/FlexibleTableViewController/FlexibleTableViewController.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>FlexibleTableViewController</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4C17643DB75F26479A36090F97ED8D46</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84070EE856517151F028F1699C377EAC</string>
-				<string>53097D8C184C1754342648E0AC5C52C7</string>
-				<string>85C2EE87EBC756535CA619F821F82395</string>
-				<string>56715F222DF7ECB30886D67EFFAAEA9F</string>
-				<string>47D22A59E67211342D31DBE0DB9A0945</string>
-				<string>216FC69AAD984D31B6D0F68817DCD73D</string>
-				<string>C4092B1ACA4940C0665E7543526E6414</string>
-				<string>28521C32008C1CD3B895EB50697DD375</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4C2BA9AA6FFE343E662320E02FA76E0F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>092CCAC44E7310CB58B60CF0E73722A8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Example/Pods-FlexibleTableViewController_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_FlexibleTableViewController_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>501809A5CF9C19F26974B28D03E970E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53097D8C184C1754342648E0AC5C52C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2389FB14E5C5BD131CB4A8078C7DEFE6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>55338E4FA14C476675D51773F4FE3CDB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>56715F222DF7ECB30886D67EFFAAEA9F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B78F394A9FBFEDB0267E78D753A02E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5768EA4ABC8DABB5A00E2A7C5B31FA09</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F8772601A35FE31ABF20DB8ADD78F054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5AF295CC019B342790BEC8267D1C83C4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A7FC71A4E7445C9B3CE4B9F0762A1072</string>
-			<key>buildPhases</key>
-			<array>
-				<string>90BF35ADB8DA648FDE7BDCF37DFBEC2B</string>
-				<string>E7A5A8F1E9D183EDFC6E9DCB4F5C6850</string>
-				<string>5768EA4ABC8DABB5A00E2A7C5B31FA09</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D985A64DD81E30C0A923A90FFD725FFC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-FlexibleTableViewController_Example</string>
-			<key>productName</key>
-			<string>Pods-FlexibleTableViewController_Example</string>
-			<key>productReference</key>
-			<string>FD0F67279ECF59B4213F7E2F0A131614</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>5F8B0E980B2047185A0761243A423D78</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E6C7F2A1B3001E5315BD36D1B263451</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>628F0BE3F773E734D492ACEC6963B7E5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DBA3D6FAD256D509B4EE6D72F9D0A9BA</string>
-				<string>02F53630B216DF23A66F10772C72C4C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FlexibleTableViewController</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E133863323C036C20707439A7278DDB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70944FDBBFA09B87FF018B6A518107AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9213593EBCB2F745A681DCC0CA99B513</string>
-				<string>36228077E3FAD59D431A88143C1C40A3</string>
-				<string>FD0F67279ECF59B4213F7E2F0A131614</string>
-				<string>2D7E09D9D434E01BFC19461305E82A13</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73349E1E3C85A321BA2E200D02D355E2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>768F29BA10334639C7CE63EF9DCDC861</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7990BCDF6D25C0F37BA411741E18C9E4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7A9AFE2B11F581D71754F9402AEE49BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7A4D554F8DAD5F24C03198DCE9C44450</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A9AFE2B11F581D71754F9402AEE49BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C2A2C6F931F7778D6A879CE50243C078</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>921712FBB47FD699275F50175207A013</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>70944FDBBFA09B87FF018B6A518107AB</string>
-				<string>13601574CD786F2AEE05CEC90ECB6806</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>829ABFC04F5D4C4226B16393CD152937</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B0ABE42338C6B9CAFC79FD7224B97FA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>84070EE856517151F028F1699C377EAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3FE215B273D5147E68E246BD1959391A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84263E75120BBF2F3C68FBD7AF7AC36C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9393ED005DFE68B331CC0B8350C2D492</string>
-			<key>remoteInfo</key>
-			<string>FlexibleTableViewController</string>
-		</dict>
-		<key>85C2EE87EBC756535CA619F821F82395</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1155D59BA957EDC6C6E75396DB34D9BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>88AF7345A4F1EDDC3F994E6B458A6EF0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6E133863323C036C20707439A7278DDB</string>
-				<string>BA1D8E4B414D4C72B1B6C3D79650D1CA</string>
-				<string>CDBD9EAB58717E718C06943ED9B44D61</string>
-				<string>10879563911BD06334051D8F54BC7A20</string>
-				<string>0E6C7F2A1B3001E5315BD36D1B263451</string>
-				<string>CF3E1ADBB0D4DE7F7E4B621E2BBC00C1</string>
-				<string>501809A5CF9C19F26974B28D03E970E8</string>
-				<string>C9337139CD7911493C6B9DFCA940AD28</string>
-				<string>092CCAC44E7310CB58B60CF0E73722A8</string>
-				<string>F3ADC2BCEE23EE75714079408577A0F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-FlexibleTableViewController_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-FlexibleTableViewController_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B38360C43DBC8EE72CDD6A85044EC74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C4036C31D7302DFE05B4BB0E11492C2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DB3BE8DCCECB37AE11AB939F58DEECA5</string>
-			<key>remoteInfo</key>
-			<string>FlexibleTableViewController-FlexibleTableViewController</string>
-		</dict>
-		<key>8C85EA1F140D9FDF6AF60859FA9266BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90BF35ADB8DA648FDE7BDCF37DFBEC2B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5F8B0E980B2047185A0761243A423D78</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9213593EBCB2F745A681DCC0CA99B513</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FlexibleTableViewController.bundle</string>
-			<key>path</key>
-			<string>FlexibleTableViewController.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>921712FBB47FD699275F50175207A013</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>628F0BE3F773E734D492ACEC6963B7E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9393ED005DFE68B331CC0B8350C2D492</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C5999E03EE556F8BF2058EE1DE858A1A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4C17643DB75F26479A36090F97ED8D46</string>
-				<string>B22D3AD5CDE1C849659ACCC392BA9746</string>
-				<string>AD9A17A4B0AB8254BF7B4FA843D83D08</string>
-				<string>0F426C0ED38889CCE0212810EFF37FB3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FFA0508CD2106F1EAA4C699E7CE0341E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FlexibleTableViewController</string>
-			<key>productName</key>
-			<string>FlexibleTableViewController</string>
-			<key>productReference</key>
-			<string>36228077E3FAD59D431A88143C1C40A3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>962567C4C9639A0ED60BC3C012011583</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3FE215B273D5147E68E246BD1959391A</string>
-				<string>969B48DE1E3D071B96D47F16F017CFD0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>protocols</string>
-			<key>path</key>
-			<string>protocols</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>969B48DE1E3D071B96D47F16F017CFD0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ListGeneratorProtocol.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>985341F35522BC522B407FDFC85A1525</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2389FB14E5C5BD131CB4A8078C7DEFE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>cell</string>
-			<key>path</key>
-			<string>cell</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98B7B25FCA966746CB64366388550DDB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C501E5BB29A65D11AC2FE16E84F2A7B4</string>
-				<string>E4436DDC48E8A65E4D4B3FF9050A6D04</string>
-				<string>8B38360C43DBC8EE72CDD6A85044EC74</string>
-				<string>768F29BA10334639C7CE63EF9DCDC861</string>
-				<string>C2A2C6F931F7778D6A879CE50243C078</string>
-				<string>164AFD52BC605857ADE21B1CE890DD2F</string>
-				<string>D37B09D187FAA260BABA677F7B8CF952</string>
-				<string>AA38F9FE0D01C25B384A9905048B7A0D</string>
-				<string>7A4D554F8DAD5F24C03198DCE9C44450</string>
-				<string>FA5D41FEA7274EF2D922F7683712BE51</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-FlexibleTableViewController_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-FlexibleTableViewController_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A53FF48DB44BCB344A7BFD35F43EE94</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B2FAA5D6B1D531076B7749AB7DD8E33E</string>
-				<string>D5871D33E4CCEECCCA908FFEABFFAC2D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9BDA81FBF7AF87896CDCE07363BE48CE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A15DC43E164FED3B478576D9C3D3B721</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7A4D554F8DAD5F24C03198DCE9C44450</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Tests/Pods-FlexibleTableViewController_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_FlexibleTableViewController_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A1602FF7DBC7F913759DFA9E52EE6EB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TableData.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7FC71A4E7445C9B3CE4B9F0762A1072</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4C2BA9AA6FFE343E662320E02FA76E0F</string>
-				<string>F9CFA5CA8B4987B4CD38EEC958352870</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A91D8CDAB3C8A5DABA2607C230C9FF31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA38F9FE0D01C25B384A9905048B7A0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AA38F9FE0D01C25B384A9905048B7A0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD9A17A4B0AB8254BF7B4FA843D83D08</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0130D64DCF725C87811EAB5BAEB4F542</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B0680B9B65B685DBB1127040FE3650B5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B0ABE42338C6B9CAFC79FD7224B97FA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FlexibleTableViewController-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B22D3AD5CDE1C849659ACCC392BA9746</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B0680B9B65B685DBB1127040FE3650B5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B2FAA5D6B1D531076B7749AB7DD8E33E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>45037B693078234E3EF293862D1FAEBF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>FlexibleTableViewController</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B8EC923BD95103541AC28730858CD806</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B97E5327F5BFD63EE6D1D5F124FA3184</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9393ED005DFE68B331CC0B8350C2D492</string>
-			<key>remoteInfo</key>
-			<string>FlexibleTableViewController</string>
-		</dict>
-		<key>BA1D8E4B414D4C72B1B6C3D79650D1CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2A2C6F931F7778D6A879CE50243C078</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4092B1ACA4940C0665E7543526E6414</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2910D654EF65D540FF9B88AAD5B60F7D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C501E5BB29A65D11AC2FE16E84F2A7B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5999E03EE556F8BF2058EE1DE858A1A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>484039E10A39A877C983CA105C8D6A7B</string>
-				<string>47ABB03668623A4C5C066F4C9E376387</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C9337139CD7911493C6B9DFCA940AD28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C96ED1A454C9F72E273E8259FE367FCB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FlexibleTableViewController.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDBD9EAB58717E718C06943ED9B44D61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CF3E1ADBB0D4DE7F7E4B621E2BBC00C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D37B09D187FAA260BABA677F7B8CF952</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>70944FDBBFA09B87FF018B6A518107AB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>9393ED005DFE68B331CC0B8350C2D492</string>
-				<string>DB3BE8DCCECB37AE11AB939F58DEECA5</string>
-				<string>5AF295CC019B342790BEC8267D1C83C4</string>
-				<string>F872F8C8C2C70F5CEB3B77547FDD270B</string>
-			</array>
-		</dict>
-		<key>D4329579D1038152FE4A3FEE039525C4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FA5D41FEA7274EF2D922F7683712BE51</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Tests/Pods-FlexibleTableViewController_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_FlexibleTableViewController_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D5871D33E4CCEECCCA908FFEABFFAC2D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>45037B693078234E3EF293862D1FAEBF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>FlexibleTableViewController</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D985A64DD81E30C0A923A90FFD725FFC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FlexibleTableViewController</string>
-			<key>target</key>
-			<string>9393ED005DFE68B331CC0B8350C2D492</string>
-			<key>targetProxy</key>
-			<string>B97E5327F5BFD63EE6D1D5F124FA3184</string>
-		</dict>
-		<key>DB3BE8DCCECB37AE11AB939F58DEECA5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9A53FF48DB44BCB344A7BFD35F43EE94</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0D485A240657E77419FC121E7935C5A0</string>
-				<string>73349E1E3C85A321BA2E200D02D355E2</string>
-				<string>55338E4FA14C476675D51773F4FE3CDB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FlexibleTableViewController-FlexibleTableViewController</string>
-			<key>productName</key>
-			<string>FlexibleTableViewController-FlexibleTableViewController</string>
-			<key>productReference</key>
-			<string>9213593EBCB2F745A681DCC0CA99B513</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>DBA3D6FAD256D509B4EE6D72F9D0A9BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>001A5DCE33EF415344C51EA257A80604</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2F74F38C04A014E3EFC626AB81BED58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>OrderedListGenerator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4436DDC48E8A65E4D4B3FF9050A6D04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7A5A8F1E9D183EDFC6E9DCB4F5C6850</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9BDA81FBF7AF87896CDCE07363BE48CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E977D8B9780A497E739C1E8A0B962699</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A15DC43E164FED3B478576D9C3D3B721</string>
-				<string>D4329579D1038152FE4A3FEE039525C4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F3ADC2BCEE23EE75714079408577A0F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F872F8C8C2C70F5CEB3B77547FDD270B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E977D8B9780A497E739C1E8A0B962699</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7990BCDF6D25C0F37BA411741E18C9E4</string>
-				<string>183F530190933D32B71B80F531170976</string>
-				<string>0CA85A35B49E946E1A61700ECDB35CC9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>332B154BB7F67F5E718751F6E01D6993</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-FlexibleTableViewController_Tests</string>
-			<key>productName</key>
-			<string>Pods-FlexibleTableViewController_Tests</string>
-			<key>productReference</key>
-			<string>2D7E09D9D434E01BFC19461305E82A13</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>F8772601A35FE31ABF20DB8ADD78F054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C9337139CD7911493C6B9DFCA940AD28</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F9CFA5CA8B4987B4CD38EEC958352870</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F3ADC2BCEE23EE75714079408577A0F1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-FlexibleTableViewController_Example/Pods-FlexibleTableViewController_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_FlexibleTableViewController_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FA5D41FEA7274EF2D922F7683712BE51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-FlexibleTableViewController_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD0F67279ECF59B4213F7E2F0A131614</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_FlexibleTableViewController_Example.framework</string>
-			<key>path</key>
-			<string>Pods_FlexibleTableViewController_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FFA0508CD2106F1EAA4C699E7CE0341E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FlexibleTableViewController-FlexibleTableViewController</string>
-			<key>target</key>
-			<string>DB3BE8DCCECB37AE11AB939F58DEECA5</string>
-			<key>targetProxy</key>
-			<string>8C4036C31D7302DFE05B4BB0E11492C2</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0130D64DCF725C87811EAB5BAEB4F542 /* FlexibleTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9213593EBCB2F745A681DCC0CA99B513 /* FlexibleTableViewController.bundle */; };
+		216FC69AAD984D31B6D0F68817DCD73D /* OrderedListGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F74F38C04A014E3EFC626AB81BED58 /* OrderedListGenerator.swift */; };
+		28521C32008C1CD3B895EB50697DD375 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1602FF7DBC7F913759DFA9E52EE6EB1 /* TableData.swift */; };
+		47D22A59E67211342D31DBE0DB9A0945 /* ListGeneratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B48DE1E3D071B96D47F16F017CFD0 /* ListGeneratorProtocol.swift */; };
+		53097D8C184C1754342648E0AC5C52C7 /* CustomUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2389FB14E5C5BD131CB4A8078C7DEFE6 /* CustomUITableViewCell.swift */; };
+		56715F222DF7ECB30886D67EFFAAEA9F /* FlexibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B78F394A9FBFEDB0267E78D753A02E6 /* FlexibleTableViewController.swift */; };
+		5F8B0E980B2047185A0761243A423D78 /* Pods-FlexibleTableViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C7F2A1B3001E5315BD36D1B263451 /* Pods-FlexibleTableViewController_Example-dummy.m */; };
+		7A9AFE2B11F581D71754F9402AEE49BF /* Pods-FlexibleTableViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A2C6F931F7778D6A879CE50243C078 /* Pods-FlexibleTableViewController_Tests-dummy.m */; };
+		829ABFC04F5D4C4226B16393CD152937 /* FlexibleTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0ABE42338C6B9CAFC79FD7224B97FA1 /* FlexibleTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84070EE856517151F028F1699C377EAC /* CellDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE215B273D5147E68E246BD1959391A /* CellDataProtocol.swift */; };
+		85C2EE87EBC756535CA619F821F82395 /* FlexibleTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155D59BA957EDC6C6E75396DB34D9BD /* FlexibleTableViewController-dummy.m */; };
+		9BDA81FBF7AF87896CDCE07363BE48CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A91D8CDAB3C8A5DABA2607C230C9FF31 /* Pods-FlexibleTableViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA38F9FE0D01C25B384A9905048B7A0D /* Pods-FlexibleTableViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0680B9B65B685DBB1127040FE3650B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B8EC923BD95103541AC28730858CD806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C4092B1ACA4940C0665E7543526E6414 /* TableConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910D654EF65D540FF9B88AAD5B60F7D /* TableConfiguration.swift */; };
+		F8772601A35FE31ABF20DB8ADD78F054 /* Pods-FlexibleTableViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9337139CD7911493C6B9DFCA940AD28 /* Pods-FlexibleTableViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84263E75120BBF2F3C68FBD7AF7AC36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9393ED005DFE68B331CC0B8350C2D492;
+			remoteInfo = FlexibleTableViewController;
+		};
+		8C4036C31D7302DFE05B4BB0E11492C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3BE8DCCECB37AE11AB939F58DEECA5;
+			remoteInfo = "FlexibleTableViewController-FlexibleTableViewController";
+		};
+		B97E5327F5BFD63EE6D1D5F124FA3184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9393ED005DFE68B331CC0B8350C2D492;
+			remoteInfo = FlexibleTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088F9F5A87B6EE679E2DDB89F1458EFA /* FlexibleTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleTableViewController-prefix.pch"; sourceTree = "<group>"; };
+		092CCAC44E7310CB58B60CF0E73722A8 /* Pods-FlexibleTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6C7F2A1B3001E5315BD36D1B263451 /* Pods-FlexibleTableViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleTableViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		10879563911BD06334051D8F54BC7A20 /* Pods-FlexibleTableViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleTableViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1155D59BA957EDC6C6E75396DB34D9BD /* FlexibleTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleTableViewController-dummy.m"; sourceTree = "<group>"; };
+		164AFD52BC605857ADE21B1CE890DD2F /* Pods-FlexibleTableViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleTableViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1B78F394A9FBFEDB0267E78D753A02E6 /* FlexibleTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlexibleTableViewController.swift; sourceTree = "<group>"; };
+		2389FB14E5C5BD131CB4A8078C7DEFE6 /* CustomUITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomUITableViewCell.swift; sourceTree = "<group>"; };
+		2910D654EF65D540FF9B88AAD5B60F7D /* TableConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableConfiguration.swift; sourceTree = "<group>"; };
+		2D7E09D9D434E01BFC19461305E82A13 /* Pods_FlexibleTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleTableViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36228077E3FAD59D431A88143C1C40A3 /* FlexibleTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexibleTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FE215B273D5147E68E246BD1959391A /* CellDataProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellDataProtocol.swift; sourceTree = "<group>"; };
+		45037B693078234E3EF293862D1FAEBF /* FlexibleTableViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleTableViewController.xcconfig; sourceTree = "<group>"; };
+		501809A5CF9C19F26974B28D03E970E8 /* Pods-FlexibleTableViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleTableViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		6E133863323C036C20707439A7278DDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768F29BA10334639C7CE63EF9DCDC861 /* Pods-FlexibleTableViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleTableViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A4D554F8DAD5F24C03198DCE9C44450 /* Pods-FlexibleTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B38360C43DBC8EE72CDD6A85044EC74 /* Pods-FlexibleTableViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleTableViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C85EA1F140D9FDF6AF60859FA9266BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9213593EBCB2F745A681DCC0CA99B513 /* FlexibleTableViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexibleTableViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		969B48DE1E3D071B96D47F16F017CFD0 /* ListGeneratorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListGeneratorProtocol.swift; sourceTree = "<group>"; };
+		A1602FF7DBC7F913759DFA9E52EE6EB1 /* TableData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
+		AA38F9FE0D01C25B384A9905048B7A0D /* Pods-FlexibleTableViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleTableViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B0ABE42338C6B9CAFC79FD7224B97FA1 /* FlexibleTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleTableViewController-umbrella.h"; sourceTree = "<group>"; };
+		BA1D8E4B414D4C72B1B6C3D79650D1CA /* Pods-FlexibleTableViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlexibleTableViewController_Example.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2A2C6F931F7778D6A879CE50243C078 /* Pods-FlexibleTableViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleTableViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		C501E5BB29A65D11AC2FE16E84F2A7B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9337139CD7911493C6B9DFCA940AD28 /* Pods-FlexibleTableViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleTableViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		C96ED1A454C9F72E273E8259FE367FCB /* FlexibleTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FlexibleTableViewController.modulemap; sourceTree = "<group>"; };
+		CDBD9EAB58717E718C06943ED9B44D61 /* Pods-FlexibleTableViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleTableViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF3E1ADBB0D4DE7F7E4B621E2BBC00C1 /* Pods-FlexibleTableViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleTableViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D37B09D187FAA260BABA677F7B8CF952 /* Pods-FlexibleTableViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleTableViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		E2F74F38C04A014E3EFC626AB81BED58 /* OrderedListGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderedListGenerator.swift; sourceTree = "<group>"; };
+		E4436DDC48E8A65E4D4B3FF9050A6D04 /* Pods-FlexibleTableViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlexibleTableViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		F3ADC2BCEE23EE75714079408577A0F1 /* Pods-FlexibleTableViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleTableViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FA5D41FEA7274EF2D922F7683712BE51 /* Pods-FlexibleTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FD0F67279ECF59B4213F7E2F0A131614 /* Pods_FlexibleTableViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleTableViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183F530190933D32B71B80F531170976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EC923BD95103541AC28730858CD806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73349E1E3C85A321BA2E200D02D355E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22D3AD5CDE1C849659ACCC392BA9746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0680B9B65B685DBB1127040FE3650B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A5A8F1E9D183EDFC6E9DCB4F5C6850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDA81FBF7AF87896CDCE07363BE48CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001A5DCE33EF415344C51EA257A80604 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B78F394A9FBFEDB0267E78D753A02E6 /* FlexibleTableViewController.swift */,
+				985341F35522BC522B407FDFC85A1525 /* cell */,
+				02970D8285C3AB675F8CC5C377C24426 /* data */,
+				962567C4C9639A0ED60BC3C012011583 /* protocols */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		02970D8285C3AB675F8CC5C377C24426 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E2F74F38C04A014E3EFC626AB81BED58 /* OrderedListGenerator.swift */,
+				2910D654EF65D540FF9B88AAD5B60F7D /* TableConfiguration.swift */,
+				A1602FF7DBC7F913759DFA9E52EE6EB1 /* TableData.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		02F53630B216DF23A66F10772C72C4C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C96ED1A454C9F72E273E8259FE367FCB /* FlexibleTableViewController.modulemap */,
+				45037B693078234E3EF293862D1FAEBF /* FlexibleTableViewController.xcconfig */,
+				1155D59BA957EDC6C6E75396DB34D9BD /* FlexibleTableViewController-dummy.m */,
+				088F9F5A87B6EE679E2DDB89F1458EFA /* FlexibleTableViewController-prefix.pch */,
+				B0ABE42338C6B9CAFC79FD7224B97FA1 /* FlexibleTableViewController-umbrella.h */,
+				8C85EA1F140D9FDF6AF60859FA9266BB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FlexibleTableViewController";
+			sourceTree = "<group>";
+		};
+		13601574CD786F2AEE05CEC90ECB6806 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88AF7345A4F1EDDC3F994E6B458A6EF0 /* Pods-FlexibleTableViewController_Example */,
+				98B7B25FCA966746CB64366388550DDB /* Pods-FlexibleTableViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		628F0BE3F773E734D492ACEC6963B7E5 /* FlexibleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBA3D6FAD256D509B4EE6D72F9D0A9BA /* Pod */,
+				02F53630B216DF23A66F10772C72C4C2 /* Support Files */,
+			);
+			name = FlexibleTableViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		70944FDBBFA09B87FF018B6A518107AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9213593EBCB2F745A681DCC0CA99B513 /* FlexibleTableViewController.bundle */,
+				36228077E3FAD59D431A88143C1C40A3 /* FlexibleTableViewController.framework */,
+				FD0F67279ECF59B4213F7E2F0A131614 /* Pods_FlexibleTableViewController_Example.framework */,
+				2D7E09D9D434E01BFC19461305E82A13 /* Pods_FlexibleTableViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				921712FBB47FD699275F50175207A013 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				70944FDBBFA09B87FF018B6A518107AB /* Products */,
+				13601574CD786F2AEE05CEC90ECB6806 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88AF7345A4F1EDDC3F994E6B458A6EF0 /* Pods-FlexibleTableViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E133863323C036C20707439A7278DDB /* Info.plist */,
+				BA1D8E4B414D4C72B1B6C3D79650D1CA /* Pods-FlexibleTableViewController_Example.modulemap */,
+				CDBD9EAB58717E718C06943ED9B44D61 /* Pods-FlexibleTableViewController_Example-acknowledgements.markdown */,
+				10879563911BD06334051D8F54BC7A20 /* Pods-FlexibleTableViewController_Example-acknowledgements.plist */,
+				0E6C7F2A1B3001E5315BD36D1B263451 /* Pods-FlexibleTableViewController_Example-dummy.m */,
+				CF3E1ADBB0D4DE7F7E4B621E2BBC00C1 /* Pods-FlexibleTableViewController_Example-frameworks.sh */,
+				501809A5CF9C19F26974B28D03E970E8 /* Pods-FlexibleTableViewController_Example-resources.sh */,
+				C9337139CD7911493C6B9DFCA940AD28 /* Pods-FlexibleTableViewController_Example-umbrella.h */,
+				092CCAC44E7310CB58B60CF0E73722A8 /* Pods-FlexibleTableViewController_Example.debug.xcconfig */,
+				F3ADC2BCEE23EE75714079408577A0F1 /* Pods-FlexibleTableViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-FlexibleTableViewController_Example";
+			path = "Target Support Files/Pods-FlexibleTableViewController_Example";
+			sourceTree = "<group>";
+		};
+		921712FBB47FD699275F50175207A013 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				628F0BE3F773E734D492ACEC6963B7E5 /* FlexibleTableViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		962567C4C9639A0ED60BC3C012011583 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3FE215B273D5147E68E246BD1959391A /* CellDataProtocol.swift */,
+				969B48DE1E3D071B96D47F16F017CFD0 /* ListGeneratorProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		985341F35522BC522B407FDFC85A1525 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				2389FB14E5C5BD131CB4A8078C7DEFE6 /* CustomUITableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		98B7B25FCA966746CB64366388550DDB /* Pods-FlexibleTableViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C501E5BB29A65D11AC2FE16E84F2A7B4 /* Info.plist */,
+				E4436DDC48E8A65E4D4B3FF9050A6D04 /* Pods-FlexibleTableViewController_Tests.modulemap */,
+				8B38360C43DBC8EE72CDD6A85044EC74 /* Pods-FlexibleTableViewController_Tests-acknowledgements.markdown */,
+				768F29BA10334639C7CE63EF9DCDC861 /* Pods-FlexibleTableViewController_Tests-acknowledgements.plist */,
+				C2A2C6F931F7778D6A879CE50243C078 /* Pods-FlexibleTableViewController_Tests-dummy.m */,
+				164AFD52BC605857ADE21B1CE890DD2F /* Pods-FlexibleTableViewController_Tests-frameworks.sh */,
+				D37B09D187FAA260BABA677F7B8CF952 /* Pods-FlexibleTableViewController_Tests-resources.sh */,
+				AA38F9FE0D01C25B384A9905048B7A0D /* Pods-FlexibleTableViewController_Tests-umbrella.h */,
+				7A4D554F8DAD5F24C03198DCE9C44450 /* Pods-FlexibleTableViewController_Tests.debug.xcconfig */,
+				FA5D41FEA7274EF2D922F7683712BE51 /* Pods-FlexibleTableViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-FlexibleTableViewController_Tests";
+			path = "Target Support Files/Pods-FlexibleTableViewController_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBA3D6FAD256D509B4EE6D72F9D0A9BA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				001A5DCE33EF415344C51EA257A80604 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CA85A35B49E946E1A61700ECDB35CC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91D8CDAB3C8A5DABA2607C230C9FF31 /* Pods-FlexibleTableViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F426C0ED38889CCE0212810EFF37FB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829ABFC04F5D4C4226B16393CD152937 /* FlexibleTableViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5768EA4ABC8DABB5A00E2A7C5B31FA09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8772601A35FE31ABF20DB8ADD78F054 /* Pods-FlexibleTableViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AF295CC019B342790BEC8267D1C83C4 /* Pods-FlexibleTableViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FC71A4E7445C9B3CE4B9F0762A1072 /* Build configuration list for PBXNativeTarget "Pods-FlexibleTableViewController_Example" */;
+			buildPhases = (
+				90BF35ADB8DA648FDE7BDCF37DFBEC2B /* Sources */,
+				E7A5A8F1E9D183EDFC6E9DCB4F5C6850 /* Frameworks */,
+				5768EA4ABC8DABB5A00E2A7C5B31FA09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D985A64DD81E30C0A923A90FFD725FFC /* PBXTargetDependency */,
+			);
+			name = "Pods-FlexibleTableViewController_Example";
+			productName = "Pods-FlexibleTableViewController_Example";
+			productReference = FD0F67279ECF59B4213F7E2F0A131614 /* Pods_FlexibleTableViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9393ED005DFE68B331CC0B8350C2D492 /* FlexibleTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5999E03EE556F8BF2058EE1DE858A1A /* Build configuration list for PBXNativeTarget "FlexibleTableViewController" */;
+			buildPhases = (
+				4C17643DB75F26479A36090F97ED8D46 /* Sources */,
+				B22D3AD5CDE1C849659ACCC392BA9746 /* Frameworks */,
+				AD9A17A4B0AB8254BF7B4FA843D83D08 /* Resources */,
+				0F426C0ED38889CCE0212810EFF37FB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA0508CD2106F1EAA4C699E7CE0341E /* PBXTargetDependency */,
+			);
+			name = FlexibleTableViewController;
+			productName = FlexibleTableViewController;
+			productReference = 36228077E3FAD59D431A88143C1C40A3 /* FlexibleTableViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB3BE8DCCECB37AE11AB939F58DEECA5 /* FlexibleTableViewController-FlexibleTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A53FF48DB44BCB344A7BFD35F43EE94 /* Build configuration list for PBXNativeTarget "FlexibleTableViewController-FlexibleTableViewController" */;
+			buildPhases = (
+				0D485A240657E77419FC121E7935C5A0 /* Sources */,
+				73349E1E3C85A321BA2E200D02D355E2 /* Frameworks */,
+				55338E4FA14C476675D51773F4FE3CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlexibleTableViewController-FlexibleTableViewController";
+			productName = "FlexibleTableViewController-FlexibleTableViewController";
+			productReference = 9213593EBCB2F745A681DCC0CA99B513 /* FlexibleTableViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F872F8C8C2C70F5CEB3B77547FDD270B /* Pods-FlexibleTableViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E977D8B9780A497E739C1E8A0B962699 /* Build configuration list for PBXNativeTarget "Pods-FlexibleTableViewController_Tests" */;
+			buildPhases = (
+				7990BCDF6D25C0F37BA411741E18C9E4 /* Sources */,
+				183F530190933D32B71B80F531170976 /* Frameworks */,
+				0CA85A35B49E946E1A61700ECDB35CC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332B154BB7F67F5E718751F6E01D6993 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlexibleTableViewController_Tests";
+			productName = "Pods-FlexibleTableViewController_Tests";
+			productReference = 2D7E09D9D434E01BFC19461305E82A13 /* Pods_FlexibleTableViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					9393ED005DFE68B331CC0B8350C2D492 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 70944FDBBFA09B87FF018B6A518107AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9393ED005DFE68B331CC0B8350C2D492 /* FlexibleTableViewController */,
+				DB3BE8DCCECB37AE11AB939F58DEECA5 /* FlexibleTableViewController-FlexibleTableViewController */,
+				5AF295CC019B342790BEC8267D1C83C4 /* Pods-FlexibleTableViewController_Example */,
+				F872F8C8C2C70F5CEB3B77547FDD270B /* Pods-FlexibleTableViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55338E4FA14C476675D51773F4FE3CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9A17A4B0AB8254BF7B4FA843D83D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0130D64DCF725C87811EAB5BAEB4F542 /* FlexibleTableViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D485A240657E77419FC121E7935C5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C17643DB75F26479A36090F97ED8D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84070EE856517151F028F1699C377EAC /* CellDataProtocol.swift in Sources */,
+				53097D8C184C1754342648E0AC5C52C7 /* CustomUITableViewCell.swift in Sources */,
+				85C2EE87EBC756535CA619F821F82395 /* FlexibleTableViewController-dummy.m in Sources */,
+				56715F222DF7ECB30886D67EFFAAEA9F /* FlexibleTableViewController.swift in Sources */,
+				47D22A59E67211342D31DBE0DB9A0945 /* ListGeneratorProtocol.swift in Sources */,
+				216FC69AAD984D31B6D0F68817DCD73D /* OrderedListGenerator.swift in Sources */,
+				C4092B1ACA4940C0665E7543526E6414 /* TableConfiguration.swift in Sources */,
+				28521C32008C1CD3B895EB50697DD375 /* TableData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7990BCDF6D25C0F37BA411741E18C9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9AFE2B11F581D71754F9402AEE49BF /* Pods-FlexibleTableViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BF35ADB8DA648FDE7BDCF37DFBEC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8B0E980B2047185A0761243A423D78 /* Pods-FlexibleTableViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		332B154BB7F67F5E718751F6E01D6993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexibleTableViewController;
+			target = 9393ED005DFE68B331CC0B8350C2D492 /* FlexibleTableViewController */;
+			targetProxy = 84263E75120BBF2F3C68FBD7AF7AC36C /* PBXContainerItemProxy */;
+		};
+		D985A64DD81E30C0A923A90FFD725FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexibleTableViewController;
+			target = 9393ED005DFE68B331CC0B8350C2D492 /* FlexibleTableViewController */;
+			targetProxy = B97E5327F5BFD63EE6D1D5F124FA3184 /* PBXContainerItemProxy */;
+		};
+		FFA0508CD2106F1EAA4C699E7CE0341E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FlexibleTableViewController-FlexibleTableViewController";
+			target = DB3BE8DCCECB37AE11AB939F58DEECA5 /* FlexibleTableViewController-FlexibleTableViewController */;
+			targetProxy = 8C4036C31D7302DFE05B4BB0E11492C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47ABB03668623A4C5C066F4C9E376387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45037B693078234E3EF293862D1FAEBF /* FlexibleTableViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlexibleTableViewController/FlexibleTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexibleTableViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlexibleTableViewController/FlexibleTableViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = FlexibleTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		484039E10A39A877C983CA105C8D6A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45037B693078234E3EF293862D1FAEBF /* FlexibleTableViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FlexibleTableViewController/FlexibleTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexibleTableViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlexibleTableViewController/FlexibleTableViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = FlexibleTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C2BA9AA6FFE343E662320E02FA76E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092CCAC44E7310CB58B60CF0E73722A8 /* Pods-FlexibleTableViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleTableViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleTableViewController_Example/Pods-FlexibleTableViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleTableViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A15DC43E164FED3B478576D9C3D3B721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4D554F8DAD5F24C03198DCE9C44450 /* Pods-FlexibleTableViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleTableViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleTableViewController_Tests/Pods-FlexibleTableViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleTableViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2FAA5D6B1D531076B7749AB7DD8E33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45037B693078234E3EF293862D1FAEBF /* FlexibleTableViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FlexibleTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D4329579D1038152FE4A3FEE039525C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5D41FEA7274EF2D922F7683712BE51 /* Pods-FlexibleTableViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleTableViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleTableViewController_Tests/Pods-FlexibleTableViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleTableViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5871D33E4CCEECCCA908FFEABFFAC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45037B693078234E3EF293862D1FAEBF /* FlexibleTableViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FlexibleTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F9CFA5CA8B4987B4CD38EEC958352870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3ADC2BCEE23EE75714079408577A0F1 /* Pods-FlexibleTableViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleTableViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleTableViewController_Example/Pods-FlexibleTableViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleTableViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A53FF48DB44BCB344A7BFD35F43EE94 /* Build configuration list for PBXNativeTarget "FlexibleTableViewController-FlexibleTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FAA5D6B1D531076B7749AB7DD8E33E /* Debug */,
+				D5871D33E4CCEECCCA908FFEABFFAC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FC71A4E7445C9B3CE4B9F0762A1072 /* Build configuration list for PBXNativeTarget "Pods-FlexibleTableViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2BA9AA6FFE343E662320E02FA76E0F /* Debug */,
+				F9CFA5CA8B4987B4CD38EEC958352870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5999E03EE556F8BF2058EE1DE858A1A /* Build configuration list for PBXNativeTarget "FlexibleTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484039E10A39A877C983CA105C8D6A7B /* Debug */,
+				47ABB03668623A4C5C066F4C9E376387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E977D8B9780A497E739C1E8A0B962699 /* Build configuration list for PBXNativeTarget "Pods-FlexibleTableViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15DC43E164FED3B478576D9C3D3B721 /* Debug */,
+				D4329579D1038152FE4A3FEE039525C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

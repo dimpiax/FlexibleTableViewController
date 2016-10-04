@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-public class CustomUITableViewCell: UITableViewCell {
-    class public  var reuseIdentifier: String {
-        return String(self)
+open class CustomUITableViewCell: UITableViewCell {
+    class open  var reuseIdentifier: String {
+        return String(describing: self)
     }
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: .Subtitle, reuseIdentifier: reuseIdentifier)
+        super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }
 
     required public init?(coder aDecoder: NSCoder) {

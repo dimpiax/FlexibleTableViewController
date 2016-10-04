@@ -13,8 +13,8 @@ public protocol ListGeneratorProtocol {
     
     var titles: [String]? { get }
     
-    func getSectionData(value: Int) -> [Item]?
-    func getData(section: Int, row: Int) -> Item?
+    func getSectionData(_ value: Int) -> [Item]?
+    func getData(_ section: Int, row: Int) -> Item?
     
-    mutating func generate(data: [Item])
+    mutating func generate(_ data: [Item])
 }

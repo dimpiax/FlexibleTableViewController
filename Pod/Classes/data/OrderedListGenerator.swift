@@ -9,9 +9,9 @@
 import Foundation
 
 public struct OrderedListGenerator<Item: CellDataProtocol>: ListGeneratorProtocol {
-    private var _titlesOrder: (Set<String> -> [String])?
-    private var _data: [[Item]]?
-    private var _titles: [String]?
+    fileprivate var _titlesOrder: ((Set<String>) -> [String])?
+    fileprivate var _data: [[Item]]?
+    fileprivate var _titles: [String]?
     
     public var titles: [String]? {
         return _titles
@@ -21,13 +21,13 @@ public struct OrderedListGenerator<Item: CellDataProtocol>: ListGeneratorProtoco
         // empty
     }
     
-    public init(titlesOrder: (Set<String> -> [String])) {
+    public init(titlesOrder: @escaping ((Set<String>) -> [String])) {
         _titlesOrder = titlesOrder
     }
     
     // *** METHODS
     // * FUNCTIONS
-    mutating public func generate(data: [Item]) {
+    mutating public func generate(_ data: [Item]) {
         var titles = Set<String>()
         for value in data where value.category != nil {
             titles.insert(value.category!)
@@ -35,32 +35,32 @@ public struct OrderedListGenerator<Item: CellDataProtocol>: ListGeneratorProtoco
         
         guard titles.count > 0 else { return }
         
-        _titles = (_titlesOrder?(titles) ?? titles.sort(<)).map { $0 }
-        appendFindedValue(&_titles!, value: "#")
+        _titles = (_titlesOrder?(titles) ?? titles.sorted(by: <)).map { $0 }
+        _ = appendFindedValue(&_titles!, value: "#")
         _data = generateListRelatedToKeys(_titles!, data: data)
     }
     
-    public func getSectionData(value: Int) -> [Item]? {
+    public func getSectionData(_ value: Int) -> [Item]? {
         return _data?[value]
     }
     
-    public func getData(section: Int, row: Int) -> Item? {
+    public func getData(_ section: Int, row: Int) -> Item? {
         guard let arr = getSectionData(section) else { return nil }
         
         return arr.count > row ? arr[row] : nil
     }
     
     // PRIVATE
-    private func generateListRelatedToKeys(value: [String], data: [Item]) -> [[Item]] {
+    fileprivate func generateListRelatedToKeys(_ value: [String], data: [Item]) -> [[Item]] {
         var list = [[Item]]()
         var tempData = data
-        var tempTitles = Array(value.reverse())
+        var tempTitles = Array(value.reversed())
         var length = tempTitles.count
         while length > 0 {
             length -= 1
             
             let value = tempTitles[length]
-            tempTitles.removeAtIndex(length)
+            tempTitles.remove(at: length)
             
             var arr: [Item] = []
             var length = tempData.count
@@ -70,7 +70,7 @@ public struct OrderedListGenerator<Item: CellDataProtocol>: ListGeneratorProtoco
                 
                 if element.category == value {
                     arr.append(element)
-                    tempData.removeAtIndex(length)
+                    tempData.remove(at: length)
                 }
             }
             list.append(arr)
@@ -78,9 +78,9 @@ public struct OrderedListGenerator<Item: CellDataProtocol>: ListGeneratorProtoco
         return list
     }
     
-    private func appendFindedValue<Item: Equatable>(inout arr: [Item], value: Item) -> Bool {
-        if let index = arr.indexOf(value) {
-            arr.append(arr.removeAtIndex(index))
+    fileprivate func appendFindedValue<Item: Equatable>(_ arr: inout [Item], value: Item) -> Bool {
+        if let index = arr.index(of: value) {
+            arr.append(arr.remove(at: index))
             return true
         }
         return false

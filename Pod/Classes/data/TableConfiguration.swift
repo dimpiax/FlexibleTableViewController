@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 public struct TableConfiguation {
-    let backgroundColor: UIColor = UIColor.whiteColor()
+    let backgroundColor: UIColor = UIColor.white
     let sectionHeaderHeight: CGFloat = 35
     let rowHeight: CGFloat = 50
     
-    let separatorStyle: UITableViewCellSeparatorStyle = .SingleLineEtched
+    let separatorStyle: UITableViewCellSeparatorStyle = .singleLineEtched
     
     let sectionIndexTrackingBackgroundColor = UIColor(white: 1, alpha: 0.5)
     let sectionIndexColor = UIColor(red: 0.55, green: 0.61, blue: 0.87, alpha: 1)

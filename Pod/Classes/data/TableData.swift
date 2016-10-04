@@ -8,9 +8,9 @@
 
 import Foundation
 
-public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol where U.Item == T> {
-    private var _arr: [T]?
-    private var _generator: U?
+public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol> where U.Item == T {
+    fileprivate var _arr: [T]?
+    fileprivate var _generator: U?
     
     init() {
         // empty
@@ -31,12 +31,12 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol where U.It
         return true
     }
     
-    mutating public func addItem(value: T) {
+    mutating public func addItem(_ value: T) {
         if _arr == nil { _arr = [] }
         _arr!.append(value)
     }
     
-    mutating public func filter(includeElement: T -> Bool) {
+    mutating public func filter(_ includeElement: (T) -> Bool) {
         _arr = _arr?.filter(includeElement)
     }
     
@@ -46,25 +46,25 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol where U.It
         _generator?.generate(arr)
     }
     
-    func getItem(indexPath: NSIndexPath) -> T? {
+    func getItem(_ indexPath: IndexPath) -> T? {
         return _generator?.getData(indexPath.section, row: indexPath.row) ?? _arr?[indexPath.row]
     }
     
-    func getRowsInSection(value: Int) -> Int {
+    func getRowsInSection(_ value: Int) -> Int {
         return  _generator?.getSectionData(value)?.count ?? _arr?.count ?? 0
     }
     
-    func getTitleForHeaderInSection(value: Int) -> String? {
+    func getTitleForHeaderInSection(_ value: Int) -> String? {
         return _generator?.titles?[value]
     }
     
     func getSectionIndexTitlesForTableView() -> [String]? {
         return _generator?.titles?.map { value in
-            String(value.substringToIndex(value.startIndex.successor()))
+            String(value.substring(to: value.characters.index(after: value.startIndex)))
         }
     }
     
-    func each(@noescape element: T -> Bool) {
+    func each(_ element: (T) -> Bool) {
         guard let arr = _arr else { return }
         
         for value in arr {
