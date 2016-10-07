@@ -76,4 +76,3 @@ Pilipenko Dima, dimpiax@gmail.com
 ## License
 
 FlexibleTableViewController is available under the MIT license. See the LICENSE file for more info.
-
