@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FlexibleTableViewController"
-  s.version          = "2.0.0"
+  s.version          = "2.0.1"
   s.summary          = "Generic table view controller with external data processing"
   
   s.description      = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/dimpiax/FlexibleTableViewController.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/dimpiax'
 
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
