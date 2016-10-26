@@ -10,17 +10,37 @@ import Foundation
 import UIKit
 
 public struct TableConfiguation {
-    let backgroundColor: UIColor = UIColor.white
-    let sectionHeaderHeight: CGFloat = 35
-    let rowHeight: CGFloat = 50
+    let backgroundColor: UIColor
+    let sectionHeaderHeight: CGFloat
+    let rowHeight: CGFloat
     
-    let separatorStyle: UITableViewCellSeparatorStyle = .singleLineEtched
+    let separatorStyle: UITableViewCellSeparatorStyle
     
-    let sectionIndexTrackingBackgroundColor = UIColor(white: 1, alpha: 0.5)
-    let sectionIndexColor = UIColor(red: 0.55, green: 0.61, blue: 0.87, alpha: 1)
-    let sectionIndexBackgroundColor = UIColor(white: 1, alpha: 0.8)
+    let sectionIndexTrackingBackgroundColor: UIColor
+    let sectionIndexColor: UIColor
+    let sectionIndexBackgroundColor: UIColor
     
     public init() {
+        backgroundColor = .white
+        sectionHeaderHeight = 35
+        rowHeight = 50
         
+        separatorStyle = .singleLineEtched
+        
+        sectionIndexTrackingBackgroundColor = UIColor(white: 1, alpha: 0.5)
+        sectionIndexColor = UIColor(red: 0.55, green: 0.61, blue: 0.87, alpha: 1)
+        sectionIndexBackgroundColor = UIColor(white: 1, alpha: 0.8)
+    }
+    
+    public init(backgroundColor: UIColor, sectionHeaderHeight: CGFloat, rowHeight: CGFloat, separatorStyle: UITableViewCellSeparatorStyle, sectionIndexTrackingBackgroundColor: UIColor, sectionIndexColor: UIColor, sectionIndexBackgroundColor: UIColor) {
+        self.backgroundColor = backgroundColor
+        self.sectionHeaderHeight = sectionHeaderHeight
+        self.rowHeight = rowHeight
+        
+        self.separatorStyle = separatorStyle
+        
+        self.sectionIndexTrackingBackgroundColor = sectionIndexTrackingBackgroundColor
+        self.sectionIndexColor = sectionIndexColor
+        self.sectionIndexBackgroundColor = sectionIndexBackgroundColor
     }
 }
