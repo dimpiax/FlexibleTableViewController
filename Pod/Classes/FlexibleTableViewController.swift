@@ -22,12 +22,15 @@ final public class FlexibleTableViewController<T: CellDataProtocol, U: ListGener
         tableView.backgroundColor = configuration.backgroundColor
         tableView.sectionHeaderHeight = configuration.sectionHeaderHeight
         tableView.rowHeight = configuration.rowHeight
+        tableView.estimatedRowHeight = configuration.estimatedRowHeight
+        
+        tableView.contentInset = configuration.contentInset
         
         tableView.sectionIndexTrackingBackgroundColor = configuration.sectionIndexTrackingBackgroundColor
         tableView.sectionIndexColor = configuration.sectionIndexColor
         tableView.sectionIndexBackgroundColor = configuration.sectionIndexBackgroundColor
         
-        tableView.separatorStyle = .singleLineEtched
+        tableView.separatorStyle = configuration.separatorStyle
         
         tableView.delegate = self
         tableView.dataSource = self

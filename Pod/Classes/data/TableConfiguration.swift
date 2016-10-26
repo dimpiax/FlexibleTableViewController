@@ -13,6 +13,9 @@ public struct TableConfiguation {
     let backgroundColor: UIColor
     let sectionHeaderHeight: CGFloat
     let rowHeight: CGFloat
+    let estimatedRowHeight: CGFloat
+    
+    let contentInset: UIEdgeInsets
     
     let separatorStyle: UITableViewCellSeparatorStyle
     
@@ -24,6 +27,9 @@ public struct TableConfiguation {
         backgroundColor = .white
         sectionHeaderHeight = 35
         rowHeight = 50
+        estimatedRowHeight = 50
+        
+        contentInset = .zero
         
         separatorStyle = .singleLineEtched
         
@@ -32,10 +38,13 @@ public struct TableConfiguation {
         sectionIndexBackgroundColor = UIColor(white: 1, alpha: 0.8)
     }
     
-    public init(backgroundColor: UIColor, sectionHeaderHeight: CGFloat, rowHeight: CGFloat, separatorStyle: UITableViewCellSeparatorStyle, sectionIndexTrackingBackgroundColor: UIColor, sectionIndexColor: UIColor, sectionIndexBackgroundColor: UIColor) {
+    public init(backgroundColor: UIColor, sectionHeaderHeight: CGFloat, rowHeight: CGFloat, estimatedRowHeight: CGFloat, contentInset: UIEdgeInsets, separatorStyle: UITableViewCellSeparatorStyle, sectionIndexTrackingBackgroundColor: UIColor, sectionIndexColor: UIColor, sectionIndexBackgroundColor: UIColor) {
         self.backgroundColor = backgroundColor
         self.sectionHeaderHeight = sectionHeaderHeight
         self.rowHeight = rowHeight
+        self.estimatedRowHeight = estimatedRowHeight
+        
+        self.contentInset = contentInset
         
         self.separatorStyle = separatorStyle
         
