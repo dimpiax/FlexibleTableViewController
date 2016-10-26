@@ -12,7 +12,7 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol> where U.I
     fileprivate var _arr: [T]?
     fileprivate var _generator: U?
     
-    init() {
+    public init() {
         // empty
     }
     
