@@ -20,11 +20,11 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol> where U.I
         _generator = generator
     }
     
-    var sections: Int {
+    public var sections: Int {
         return _generator?.titles?.count ?? 1
     }
     
-    var isEmpty: Bool {
+    public var isEmpty: Bool {
         if let arr = _arr {
             return arr.isEmpty
         }
@@ -64,7 +64,7 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol> where U.I
         }
     }
     
-    func each(_ element: (T) -> Bool) {
+    public func each(_ element: (T) -> Bool) {
         guard let arr = _arr else { return }
         
         for value in arr {

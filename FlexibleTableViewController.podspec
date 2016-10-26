@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FlexibleTableViewController"
-  s.version          = "2.0.1"
+  s.version          = "2.0.2"
   s.summary          = "Generic table view controller with external data processing"
   
   s.description      = <<-DESC

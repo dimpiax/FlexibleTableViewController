@@ -17,7 +17,7 @@ public struct OrderedListGenerator<Item: CellDataProtocol>: ListGeneratorProtoco
         return _titles
     }
     
-    init() {
+    public init() {
         // empty
     }
     

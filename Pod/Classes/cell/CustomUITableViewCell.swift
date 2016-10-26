@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 open class CustomUITableViewCell: UITableViewCell {
-    class open  var reuseIdentifier: String {
-        return String(describing: self)
+    class open var reuseIdentifier: String {
+        return "\(self)"
     }
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override public init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }
 
