@@ -1,6 +1,6 @@
 # FlexibleTableViewController
 
-[![CI Status](http://img.shields.io/travis/dimpiax/FlexibleTableViewController.svg?style=flat)](https://travis-ci.org/dimpiax/FlexibleTableViewController)
+[![Language](https://img.shields.io/badge/swift-3.0-fec42e.svg)](https://swift.org/blog/swift-3-0-released/)
 [![Version](https://img.shields.io/cocoapods/v/FlexibleTableViewController.svg?style=flat)](http://cocoapods.org/pods/FlexibleTableViewController)
 [![License](https://img.shields.io/cocoapods/l/FlexibleTableViewController.svg?style=flat)](http://cocoapods.org/pods/FlexibleTableViewController)
 [![Platform](https://img.shields.io/cocoapods/p/FlexibleTableViewController.svg?style=flat)](http://cocoapods.org/pods/FlexibleTableViewController)
@@ -12,8 +12,6 @@ configuration of requested cell for display and cell selection handler
 <img src=thumbnail.png width=25% height=25% />
 
 ## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 Wrapper initialization and cell registering. 
 ```
