@@ -1,35 +1,33 @@
 # FlexibleTableViewController
 
-[![CI Status](http://img.shields.io/travis/dimpiax/FlexibleTableViewController.svg?style=flat)](https://travis-ci.org/dimpiax/FlexibleTableViewController)
+[![Language](https://img.shields.io/badge/swift-3.0-fec42e.svg)](https://swift.org/blog/swift-3-0-released/)
 [![Version](https://img.shields.io/cocoapods/v/FlexibleTableViewController.svg?style=flat)](http://cocoapods.org/pods/FlexibleTableViewController)
 [![License](https://img.shields.io/cocoapods/l/FlexibleTableViewController.svg?style=flat)](http://cocoapods.org/pods/FlexibleTableViewController)
 [![Platform](https://img.shields.io/cocoapods/p/FlexibleTableViewController.svg?style=flat)](http://cocoapods.org/pods/FlexibleTableViewController)
 
 Swift library of generic table view controller with external data processing of functionality,
 like determine cell's `reuseIdentifier` related to `indexPath`, 
-configuration of requested cell for display and cell selection handler
+configuration of requested cell for display and cell selection handler etc
 
 <img src=thumbnail.png width=25% height=25% />
 
-## Usage
+## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-Wrapper initialization and cell registering. 
-```
+Initialization and cell registering. 
+```swift
 let flexibleTableVC = FlexibleTableViewController<CustomCellData, OrderedListGenerator<CustomCellData>>(style: .plain, configuration: TableConfiguation())
 flexibleTableVC.register(CustomUITableViewCell.self, forCellReuseIdentifier: CustomUITableViewCell.reuseIdentifier)
 ```
 
 Define "reuse identifier" relatively to indexPath:
-```
+```swift
 flexibleTableVC.requestCellIdentifier = { indexPath in
   return CustomUITableViewCell.reuseIdentifier
 }
 ```
 
 Configure cell relatively to data:
-```
+```swift
 flexibleTableVC.configureCell = { (cell: UITableViewCell, data: CustomCellData?) in
   guard let data = data else { return false }
 
@@ -45,7 +43,7 @@ flexibleTableVC.configureCell = { (cell: UITableViewCell, data: CustomCellData?)
 ```
 
 Process cell select here:
-```
+```swift
 flexibleTableVC.cellDidSelect = { indexPath in
   // return true for immediately deselection
   return true

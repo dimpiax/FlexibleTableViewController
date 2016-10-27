@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FlexibleTableViewController"
-  s.version          = "2.0.5"
+  s.version          = "2.0.6"
   s.summary          = "Generic table view controller with external data processing"
   
   s.description      = <<-DESC
@@ -26,6 +26,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
+
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'Pod/Classes/**/*'
 end
