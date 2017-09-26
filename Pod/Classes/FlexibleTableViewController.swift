@@ -69,22 +69,18 @@ final public class FlexibleTableViewController<T: CellDataProtocol, U: ListGener
     
     // UITableViewDataSource
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell: UITableViewCell!
-        
-        if let identifier = requestCellIdentifier?(indexPath) {
-            cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
-        }
-        else {
-            cell = UITableViewCell()
+        guard let identifier = requestCellIdentifier?(indexPath) else {
+            return UITableViewCell()
         }
         
-        return cell
+        return tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
     }
     
     override public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        guard let itemData = _data?.getItem(indexPath) else {
-            return
-        }
+        cell.textLabel?.text = nil
+        cell.detailTextLabel?.text = nil
+        
+        guard let itemData = _data?.getItem(indexPath) else { return }
         
         if configureCell?(cell, itemData) == true {}
         else {

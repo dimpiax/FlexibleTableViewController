@@ -31,7 +31,7 @@ public struct TableConfiguation {
         
         contentInset = .zero
         
-        separatorStyle = .singleLineEtched
+        separatorStyle = .none
         
         sectionIndexTrackingBackgroundColor = UIColor(white: 1, alpha: 0.5)
         sectionIndexColor = UIColor(red: 0.55, green: 0.61, blue: 0.87, alpha: 1)

@@ -51,7 +51,7 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol> where U.I
     }
     
     func getRowsInSection(_ value: Int) -> Int {
-        return  _generator?.getSectionData(value)?.count ?? _arr?.count ?? 0
+        return _generator?.getSectionData(value)?.count ?? _arr?.count ?? 0
     }
     
     func getTitleForHeaderInSection(_ value: Int) -> String? {
@@ -60,7 +60,7 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol> where U.I
     
     func getSectionIndexTitlesForTableView() -> [String]? {
         return _generator?.titles?.map { value in
-            String(value.dropFirst())
+            String(value[value.index(value.startIndex, offsetBy: 0)]).uppercased()
         }
     }
     

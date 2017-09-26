@@ -10,11 +10,13 @@ import UIKit
 import FlexibleTableViewController
 
 class ViewController: UIViewController {
-
+    private var _vc: FlexibleTableViewController<CustomCellData, OrderedListGenerator<CustomCellData>>!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let flexibleTableVC = FlexibleTableViewController<CustomCellData, OrderedListGenerator<CustomCellData>>(style: .plain, configuration: TableConfiguation())
+        _vc = flexibleTableVC
         
         flexibleTableVC.register(CustomUITableViewCell.self, forCellReuseIdentifier: CustomUITableViewCell.reuseIdentifier)
         
@@ -43,6 +45,12 @@ class ViewController: UIViewController {
         
         addChildViewController(flexibleTableVC)
         view.addSubview(flexibleTableVC.view)
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        _vc.view.frame = CGRect(x: 0, y: 0, width: 320, height: 200)
     }
 
     override func didReceiveMemoryWarning() {
