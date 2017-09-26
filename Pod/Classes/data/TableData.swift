@@ -60,7 +60,7 @@ public struct TableData<T: CellDataProtocol, U: ListGeneratorProtocol> where U.I
     
     func getSectionIndexTitlesForTableView() -> [String]? {
         return _generator?.titles?.map { value in
-            String(value.substring(to: value.characters.index(after: value.startIndex)))
+            String(value.dropFirst())
         }
     }
     
