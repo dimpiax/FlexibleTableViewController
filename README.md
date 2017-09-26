@@ -52,8 +52,9 @@ flexibleTableVC.cellDidSelect = { indexPath in
 
 ## Requirements
 
-Swift 3 or above
+Updated to Swift 4
 
+###### For Swift 3.1 version use [v.2.0.6](../../releases/tag/2.0.6)
 ###### For Swift 2.2 version use [v.1.1.0](../../releases/tag/1.1.0)
 
 ## Installation
