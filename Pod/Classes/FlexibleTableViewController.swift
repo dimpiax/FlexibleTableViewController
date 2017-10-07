@@ -12,9 +12,11 @@ import UIKit
 final public class FlexibleTableViewController<T: CellDataProtocol, U: ListGeneratorProtocol>: UITableViewController where U.Item == T {
     public var requestCellIdentifier: ((IndexPath) -> String?)?
     public var configureCell: ((UITableViewCell, T?) -> Bool)?
+    public var willDisplayCell: ((_ cell: UITableViewCell, _ data: T?, _ indexPath: IndexPath) -> Bool)?
+    public var didEndDisplayingCell: ((_ cell: UITableViewCell, _ data: T?, _ indexPath: IndexPath) -> Bool)?
     public var cellDidSelect: ((IndexPath) -> Bool)?
     
-    fileprivate var _data: TableData<T, U>?
+    private var _data: TableData<T, U>?
     
     public init(style: UITableViewStyle, configuration: TableConfiguation) {
         super.init(style: style)
@@ -77,6 +79,8 @@ final public class FlexibleTableViewController<T: CellDataProtocol, U: ListGener
     }
     
     override public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        _ = willDisplayCell?(cell, _data?.getItem(indexPath), indexPath)
+        
         cell.textLabel?.text = nil
         cell.detailTextLabel?.text = nil
         
@@ -86,6 +90,10 @@ final public class FlexibleTableViewController<T: CellDataProtocol, U: ListGener
         else {
             cell.textLabel!.text = itemData.title
         }
+    }
+    
+    override public func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        _ = didEndDisplayingCell?(cell, _data?.getItem(indexPath), indexPath)
     }
     
     override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -98,5 +106,15 @@ final public class FlexibleTableViewController<T: CellDataProtocol, U: ListGener
     
     override public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return _data?.getTitleForHeaderInSection(section)
+    }
+    
+    deinit {
+        requestCellIdentifier = nil
+        configureCell = nil
+        willDisplayCell = nil
+        didEndDisplayingCell = nil
+        cellDidSelect = nil
+        
+        _data = nil
     }
 }
